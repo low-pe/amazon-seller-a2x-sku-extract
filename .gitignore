@@ -1,0 +1,15 @@
+# Byte-compiled / cache
+__pycache__/
+*.pyc
+
+# Data & Logs
+skus.txt
+sku_results.csv
+cron.log
+
+# Credentials
+
+# Clutter
+sku_results.csv.bak
+*.log
+*.pid
