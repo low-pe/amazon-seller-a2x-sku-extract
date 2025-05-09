@@ -25,10 +25,10 @@ This format helps with troubleshooting, especially if you're trying to determine
 Once the script is complete, a Discord webhook will be sent with a summary of how many new SKUs were identified.
 
 # Requirements:
-Gmail App Password
-Google Sheets Project API Credentials
-OpenAI Credentials
-Google Sheets A2X Export of Costs
+  1) Gmail App Password 
+  2) Google Sheets Project API Credentials
+  3) OpenAI Credentials
+  4) Google Sheets A2X Export of Costs
 
 # Instructions:
 1) Update updatesheets.py to include your spreadsheet ID
