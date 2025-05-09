@@ -5,7 +5,9 @@ This script assists Amazon.com sellers in associating their A2X SKUs with the ac
 99% of the data can be matched using the criteria defined in main.py:
 
 { "sender": "donotreply@amazon.com", "title_keyword": "Refund Initiated for Order", "description": "Refund Initiated" }
+
 { "sender": "seller-notification@amazon.com", "title_keyword": "Sold, ship now", "description": "Sold Ship Now" }
+
 { "sender": "seller-notification@amazon.com", "title_keyword": "Amazon Listing Created -", "description": "Listing Created" }
 
 We'll be adding additional criteria in the future, including support for Canada and Mexico, as A2X supports those marketplaces.
