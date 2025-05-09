@@ -22,24 +22,29 @@ This format helps with troubleshooting, especially if you're trying to determine
 
 Once the script is complete, a Discord webhook will be sent with a summary of how many new SKUs were identified.
 
-Instructions:
-Update updatesheets.py to include your spreadsheet ID
+# Instructions:
+1) Update updatesheets.py to include your spreadsheet ID
 
 This sheet should be in the format of an A2X costs export, for example:
 
 sku	cost	name	fnsku	last-seen
 
-Update auth.py with your gmail, gmail app password, and openAI token
-Update credentials.json with your google sheets API project credentials
-Update main.py with a discord webhook
+2) Update auth.py with your gmail, gmail app password, and openAI token
 
-Add the list of your skus to skus.txt
+3) Update credentials.json with your google sheets API project credentials
+
+4) Update main.py with a discord webhook
+
+5) Add the list of your skus to skus.txt
 
 Optional: skuremoval.py can help clean up local SKU clutter
 
-How to run:
+## How to run:
 
+```
 python3 main.py
+```
 It will ask you where your sku list is, tell it skus.txt
-
+```
 python3 updatesheets.py
+```
